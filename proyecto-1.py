@@ -17,7 +17,8 @@ def save_file(data):
     """Guarda los datos ingresados en el archivo JSON"""
     with open("libreria.json", 'w') as archivo:
         json.dump(data, archivo, indent=4)
-
+        
+# Ventana principal del programa.
 class Ventana_inicio():
     def __init__(self):
 
@@ -66,7 +67,7 @@ class Ventana_inicio():
         ventana_usuario_dialogo = Ventana_usuario_inicio()
         ventana_usuario_dialogo.dialogo_3.run()
 
-
+# Ventana de diálogo para confirmar que eres el Bibliotecario, se debe ingresar una contraseña. 
 class Ventana_dialogo_inicio():
 
     def __init__(self):
@@ -110,6 +111,7 @@ class Ventana_dialogo_inicio():
             # print(ingresado)
             print("Se ha equivocado de contraseña")
 
+# Ventana del Bibliotecario, aquí se agregan o eliminan libros.
 class Ventana_bibliotecario():
 
     def __init__(self):
@@ -198,7 +200,8 @@ class Ventana_bibliotecario():
 
         self.delete_all_data()
         self.load_data_from_json()
-
+        
+# Ventana de diálogo que nos permite agregar libros
 class Dialogo_bibliotecario:
 
     def __init__(self):
@@ -234,6 +237,7 @@ class Dialogo_bibliotecario:
         data.append(new_data)
         save_file(data)
 
+# Ventana de diálogo para agregar datos del usuario, como lo son nombre y fecha.
 class Ventana_usuario_inicio():
 
     def __init__(self):
@@ -355,7 +359,7 @@ class Ventana_usuario_inicio():
             iter_ = self.ventana_usuario.modelo.get_iter(0)
             self.ventana_usuario.modelo.remove(iter_)
 
-
+# Ventana del Usuario, aquí el Usuario puede pedir libros o devolverlos.
 class Ventana_usuario():
 
     def __init__(self):
