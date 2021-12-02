@@ -1,0 +1,98 @@
+[
+    {
+        "codigo": "A02",
+        "nombre": "En llamas",
+        "autor": "Suzanne Collins",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A03",
+        "nombre": "Escuadron",
+        "autor": "Brandon Sanderson",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A04",
+        "nombre": "It",
+        "autor": "Stephen King",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A06",
+        "nombre": "El alquimista",
+        "autor": "Paulo Coelho",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A07",
+        "nombre": "El codigo Da Vinci",
+        "autor": "Dan Browm",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A08",
+        "nombre": "Lo que el viento se llevo",
+        "autor": "Margaret Mitchell",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A09",
+        "nombre": "Piense y hagase rico",
+        "autor": "Napoleon Hill",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A10",
+        "nombre": "El diario de Ana Frank",
+        "autor": "Anna Frank",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A11",
+        "nombre": "Boulevard",
+        "autor": "Flor M. Salvador",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A12",
+        "nombre": "El hombre de tiza",
+        "autor": "C. J. Tudor",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A13",
+        "nombre": "El libro troll",
+        "autor": "El Rubius",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A14",
+        "nombre": "El pozo de la ascension",
+        "autor": "Brandon Sanderson",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A15",
+        "nombre": "Elantris",
+        "autor": "Brandon Sanderson",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A05",
+        "nombre": "Romeo y Julieta",
+        "autor": "William Shakespierre",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A00",
+        "nombre": "Los juegos del hambre",
+        "autor": "Suzanne Collins",
+        "estado": "Disponible"
+    },
+    {
+        "codigo": "A01",
+        "nombre": "Sinsajo",
+        "autor": "Suzanne Collins",
+        "estado": "Disponible"
+    }
+]
