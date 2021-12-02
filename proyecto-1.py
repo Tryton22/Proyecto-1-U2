@@ -1,3 +1,4 @@
+# Proyecto Número 1 de la Unidad 2 /Programación 1/ Matías Fonseca, Claudio Larosa
 import json
 import gi
 gi.require_version("Gtk", "3.0")
